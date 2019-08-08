@@ -17,7 +17,7 @@ Import health_tracker.sql to your mysql server.
 ![signUp](https://user-images.githubusercontent.com/47367245/62733210-2e0bbe80-ba37-11e9-8dbe-9bc85d5c239d.PNG)
 
 ### Setting Profil Frame
-If this is your first time logging in, you must set your profil. 
+If this is your first time logging in, you must set your profil.\
 ![done](https://user-images.githubusercontent.com/47367245/62734219-83e16600-ba39-11e9-8c23-3cbbb365b53b.PNG)
 
 ### Main Frame
@@ -27,11 +27,11 @@ If this is your first time logging in, you must set your profil.
 ![Edits](https://user-images.githubusercontent.com/47367245/62734376-f2262880-ba39-11e9-8315-99194010b1b2.PNG)
 
 ### BFP Calculator Frame
-This frame depends on your gender
-For Male
+This frame depends on your gender\
+For Male\
 ![bfpforMale](https://user-images.githubusercontent.com/47367245/62734681-a1fb9600-ba3a-11e9-899b-024decd6200b.PNG)
 
-For Female
+For Female\
 ![bfpforFemale](https://user-images.githubusercontent.com/47367245/62734704-b0e24880-ba3a-11e9-930f-870b6764c042.PNG)
 
 ### Others calculators
