@@ -197,7 +197,7 @@ public class EditUserFrame extends javax.swing.JFrame implements FieldsFormInter
         String password = String.valueOf(account_pass.getPassword());
         String rePassword = String.valueOf(account_rePass.getPassword());
         if(password.equals(rePassword)){
-            if(ud.update(new User(id,name,surname,username,password)) &&
+            if(ud.update(new User(id,name,surname,username,password,1)) &&
                     MainUtil.askForOperation("Yes", "No", "Do You Really Want to Update", "Update Account")==0)
             JOptionPane.showMessageDialog(null, "Update Successful");
             
