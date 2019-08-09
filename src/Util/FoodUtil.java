@@ -31,7 +31,7 @@ public class FoodUtil extends MainFrame{
         foods = fd.getAll();
         
         String[] cols = new String[]{"Id","Name","Unit","Qty","Protein","Fat","Calori","Picture"};
-        Object[][] data = new Object[foods.size()][9];
+        Object[][] data = new Object[foods.size()][8];
         
         for(int i = 0; i < foods.size(); i++){
             Food f = foods.get(i);
@@ -45,7 +45,7 @@ public class FoodUtil extends MainFrame{
             ImageIcon food_image = new ImageIcon(new ImageIcon(f.getPicture()).getImage()
              .getScaledInstance(50, 50, Image.SCALE_SMOOTH) ); 
             data[i][7] = food_image;
-            data[i][8] = f.getPicture();
+          //  data[i][8] = f.getPicture();
         }
         
         DefaultTableModel dtm = new DefaultTableModel(data,cols){
